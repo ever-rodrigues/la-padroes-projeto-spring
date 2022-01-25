@@ -12,15 +12,15 @@ public class Referee {
     @ManyToOne
     private Endereco endereco;
 
-    private Long getId(){return id;}
+    public Long getId(){return id;}
 
-    private void setId(Long id){this.id=id;}
+    public void setId(Long id){this.id=id;}
 
-    private String getNome(){return nome;}
+    public String getNome(){return nome;}
 
-    private void setNome(String nome){this.nome=nome;}
+    public void setNome(String nome){this.nome=nome;}
 
-    private Endereco getEndereco(){return endereco;}
+    public Endereco getEndereco(){return endereco;}
 
-    private void setEndereco(Endereco endereco){this.endereco=endereco;}
+    public void setEndereco(Endereco endereco){this.endereco=endereco;}
 }

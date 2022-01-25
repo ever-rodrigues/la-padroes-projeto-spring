@@ -1,6 +1,5 @@
 package com.dio.InjecaoDependencia.Cbf;
 
-public interface Profissional {
+public interface Cargo {
     public void getTipo();
-    public void avalia();
 }

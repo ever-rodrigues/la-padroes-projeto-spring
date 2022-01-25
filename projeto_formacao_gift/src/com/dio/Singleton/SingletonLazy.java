@@ -1,4 +1,4 @@
-package com.dio;
+package com.dio.Singleton;
 //Singleton "lazy"
 public class SingletonLazy {
     private static SingletonLazy instancia;

@@ -1,2 +1,11 @@
-package com.dio.Strategy;public interface Comportamento {
+package com.dio.Strategy;
+
+public interface Comportamento {
+    void mover();
+
+
+
+
+
+
 }

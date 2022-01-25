@@ -1,2 +1,5 @@
-package com.utilizandoBeans.Spring;public interface AutorLivro {
+package com.utilizandoBeans.Spring;
+
+public interface AutorLivro {
+    void exbirAutor();
 }
